@@ -500,10 +500,10 @@ if(RealNumTracePoint >= 2)
     hold off
     grid on
 
-    image_name = sprintf('Trace plots.png');
-    saveas(hFig,image_name,'png');
-    image_name = sprintf('Trace plots.fig');
-    saveas(hFig,image_name,'fig');
+    %image_name = sprintf('Trace plots');
+    %saveas(hFig,image_name,'png');
+    %image_name = sprintf('Trace plots.fig');
+    %saveas(hFig,image_name,'fig');
 end
 
 
@@ -530,7 +530,7 @@ xlabel ('D (um^{2}/s)'); ylabel('Counts'); grid on
 
 
 
-% --- Executes on button press in Simulation.
+% --- Executes on button press in x.
 function Simulation_Callback(hObject, eventdata, handles)
 % hObject    handle to Simulation (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
